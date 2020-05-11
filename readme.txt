@@ -7,7 +7,7 @@ Features:
 * All page type templates
 * template-parts implemented for banner
 * implemented using Gulp, SCSS
-
+* HTML5, CSS3
 
 COMAND TO COMPILE SCSS
 > npm run gulp compile:scss
