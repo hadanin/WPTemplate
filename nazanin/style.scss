@@ -1,0 +1,68 @@
+/*
+Theme Name: Nazanin
+Authur: Nazanin Hesam Zadeh
+Description: Nazanin Custom theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: Nazanin
+*/
+
+@import 'css/inc/base';
+@import 'css/inc/animate';
+
+div.head-banner{
+    color:$primary-color;
+    #logo{
+        position: absolute;
+        color:$white;
+        font-size: 28px;
+        top: 40px;
+        left: 10%;
+    }
+    img.head-banner{
+        width: 100%;
+    }
+    .banner-title{
+        position: absolute;
+        top:40%;
+        left:15%;
+        h1{
+            font-size: 38px;
+        }
+        span{
+        color:$secondary-color;
+    }
+    }
+}
+#home-page{
+    .greet{
+        width: 50%;
+        margin: auto;
+        #developer{
+            display: inline-flex;
+            #dev-arm{
+                left: -68px;
+                position: absolute;
+                top: 292px;
+            }
+        }
+        #employee{
+            display: inline-flex;
+            #emp-arm{
+                left: 85px;
+                position: absolute;
+                top: 303px;
+            }
+        }
+    }
+}
+
+h1 {
+    font-size: 18px;
+    @media (min-width: 767px) {
+      font-size: 24px;
+    }
+  }
+  

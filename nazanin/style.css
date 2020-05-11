@@ -1,0 +1,286 @@
+/*
+Theme Name: Nazanin
+Authur: Nazanin Hesam Zadeh
+Description: Nazanin Custom theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: Nazanin
+*/
+@-webkit-keyframes enter-from-left-keyframe {
+  0% {
+    -webkit-transform: translate3d(-500px, 0px, 0px);
+            transform: translate3d(-500px, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  38.8889% {
+    -webkit-transform: translate3d(100px, 0px, 0px);
+            transform: translate3d(100px, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes enter-from-left-keyframe {
+  0% {
+    -webkit-transform: translate3d(-500px, 0px, 0px);
+            transform: translate3d(-500px, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  38.8889% {
+    -webkit-transform: translate3d(100px, 0px, 0px);
+            transform: translate3d(100px, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+
+@-webkit-keyframes employee-enter-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px) scale(0.5);
+            transform: translate3d(0, 0px, 0px) scale(0.5);
+  }
+  100% {
+    -webkit-transform: translate3d(60%, 0px, 0px) scale(1);
+            transform: translate3d(60%, 0px, 0px) scale(1);
+  }
+}
+
+@keyframes employee-enter-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px) scale(0.5);
+            transform: translate3d(0, 0px, 0px) scale(0.5);
+  }
+  100% {
+    -webkit-transform: translate3d(60%, 0px, 0px) scale(1);
+            transform: translate3d(60%, 0px, 0px) scale(1);
+  }
+}
+
+@-webkit-keyframes developer-enter-keyframe {
+  0% {
+    -webkit-transform: translate3d(100%, 0px, 0px) scale(0.5);
+            transform: translate3d(100%, 0px, 0px) scale(0.5);
+  }
+  100% {
+    -webkit-transform: translate3d(50%, 0px, 0px) scale(1);
+            transform: translate3d(50%, 0px, 0px) scale(1);
+  }
+}
+
+@keyframes developer-enter-keyframe {
+  0% {
+    -webkit-transform: translate3d(100%, 0px, 0px) scale(0.5);
+            transform: translate3d(100%, 0px, 0px) scale(0.5);
+  }
+  100% {
+    -webkit-transform: translate3d(50%, 0px, 0px) scale(1);
+            transform: translate3d(50%, 0px, 0px) scale(1);
+  }
+}
+
+@-webkit-keyframes developer-arm-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes developer-arm-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@-webkit-keyframes employee-arm-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes employee-arm-keyframe {
+  0% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 3px, 0px);
+            transform: translate3d(0, 3px, 0px);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+#ln1 {
+  -webkit-animation: 1.3s linear 0s 1 normal forwards running enter-from-left-keyframe;
+          animation: 1.3s linear 0s 1 normal forwards running enter-from-left-keyframe;
+}
+
+#ln2 {
+  -webkit-animation: 1.8s linear 0s 1 normal forwards running enter-from-left-keyframe;
+          animation: 1.8s linear 0s 1 normal forwards running enter-from-left-keyframe;
+}
+
+#employee {
+  -webkit-animation: 1.3s linear 0s 1 normal forwards running employee-enter-keyframe;
+          animation: 1.3s linear 0s 1 normal forwards running employee-enter-keyframe;
+}
+
+#developer {
+  -webkit-animation: 1.3s linear 0s 1 normal forwards running developer-enter-keyframe;
+          animation: 1.3s linear 0s 1 normal forwards running developer-enter-keyframe;
+}
+
+.emp-arm {
+  -webkit-animation: 1.3s linear 1.3s 1 normal forwards running employee-arm-keyframe;
+          animation: 1.3s linear 1.3s 1 normal forwards running employee-arm-keyframe;
+}
+
+.dev-arm {
+  -webkit-animation: 1.3s linear 1.3s 1 normal forwards running developer-arm-keyframe;
+          animation: 1.3s linear 1.3s 1 normal forwards running developer-arm-keyframe;
+}
+
+div.head-banner {
+  color: #505c67;
+}
+
+div.head-banner #logo {
+  position: absolute;
+  color: #fbfbfb;
+  font-size: 28px;
+  top: 40px;
+  left: 10%;
+}
+
+div.head-banner img.head-banner {
+  width: 100%;
+}
+
+div.head-banner .banner-title {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+div.head-banner .banner-title h1 {
+  font-size: 38px;
+}
+
+div.head-banner .banner-title span {
+  color: #17c6bb;
+}
+
+#home-page .greet {
+  width: 50%;
+  margin: auto;
+}
+
+#home-page .greet #developer {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#home-page .greet #developer #dev-arm {
+  left: -68px;
+  position: absolute;
+  top: 292px;
+}
+
+#home-page .greet #employee {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#home-page .greet #employee #emp-arm {
+  left: 85px;
+  position: absolute;
+  top: 303px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+@media (min-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+@keyframes enter-from-left-keyframe {
+    0% {
+      transform: translate3d(-500px, 0px, 0px);
+      animation-timing-function: linear;
+    }
+    38.8889% {
+      transform: translate3d(100px, 0px, 0px);
+      animation-timing-function: linear;
+    }
+    100% {
+      transform: translate3d(0, 0px, 0px);
+      animation-timing-function: linear;
+    }
+}
+@keyframes employee-enter-keyframe {
+    0% { transform: translate3d(0,0px, 0px) scale(.5); }
+    100% { transform: translate3d(60%,0px, 0px) scale(1); }
+}
+@keyframes developer-enter-keyframe {
+    0% { transform: translate3d(100%,0px, 0px) scale(.5); }
+    100% { transform: translate3d(50% ,0px, 0px) scale(1); }
+}
+@keyframes developer-arm-keyframe {
+    0% { transform: translate3d(0,0px, 0px); }
+    25% { transform: translate3d(0,3px, 0px); }
+    50% { transform: translate3d(0,0px, 0px); }
+    75% { transform: translate3d(0,3px, 0px); }
+    100% { transform: translate3d(0px ,0px, 0px); }
+}
+@keyframes employee-arm-keyframe {
+    0% { transform: translate3d(0,0px, 0px); }
+    25% { transform: translate3d(0,3px, 0px); }
+    50% { transform: translate3d(0,0px, 0px); }
+    75% { transform: translate3d(0,3px, 0px); }
+    100% { transform: translate3d(0px ,0px, 0px); }
+}
+#ln1 {
+    animation: 1.3s linear 0s 1 normal forwards running enter-from-left-keyframe;
+}
+#ln2 {
+    animation: 1.8s linear 0s 1 normal forwards running enter-from-left-keyframe;
+}
+#employee{
+    animation: 1.3s linear 0s 1 normal forwards running employee-enter-keyframe;
+}
+#developer{
+    animation: 1.3s linear 0s 1 normal forwards running developer-enter-keyframe;
+}
+.emp-arm{
+    animation: 1.3s linear 1.3s 1 normal forwards running employee-arm-keyframe;
+}
+.dev-arm{
+    animation: 1.3s linear 1.3s 1 normal forwards running developer-arm-keyframe;
+}

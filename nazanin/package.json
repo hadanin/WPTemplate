@@ -1,0 +1,25 @@
+{
+  "name": "nazanin",
+  "version": "1.0.0",
+  "description": "Nazanin WordPress Modern Template",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nazanin Hesam Zadeh",
+  "license": "ISC",
+  "browserslist": [
+    "extends @wordpress/browserslist-config",
+    "defaults"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
